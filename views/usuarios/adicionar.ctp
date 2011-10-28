@@ -16,7 +16,7 @@
     	</P>
 </form>
 */
-echo $this->Form->create('Usuario');
+echo $this->Form->create('Usuario', array('action' => 'adicionar'));
 
 echo $this->Form->input('nombre');
 echo $this->Form->input('apellido');

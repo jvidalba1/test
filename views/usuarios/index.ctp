@@ -11,7 +11,8 @@ echo"<tr><th>Id</th><th>Nombre</th><th>Apellido</th><th>Email</th><th>Nick</th><
 			  <td>{$usuario['Usuario']['nick']}</td>
 			  <td>{$usuario['Usuario']['pass']}</td>
             		  <td>{$usuario['Usuario']['created']}</td>
-			  <td>{$usuario['Usuario']['modified']}</td></tr>";
+			  <td>{$usuario['Usuario']['modified']}</td>
+		 <td>".$this->Html->link('Editar', array('action'=>'editar', 'id'=>$usuario['Usuario']['id']))."</td></tr>";
 	
 	}
 
