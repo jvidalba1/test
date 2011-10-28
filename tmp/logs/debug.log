@@ -1,0 +1,2 @@
+2011-10-22 16:41:03 Notice: Notice (8): Undefined variable: nombre in [/opt/lampp/htdocs/cakephp/test/controllers/map_controller.php, line 22]
+2011-10-22 16:41:22 Notice: Notice (8): Undefined variable: nombre in [/opt/lampp/htdocs/cakephp/test/controllers/map_controller.php, line 22]
